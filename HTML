@@ -1,0 +1,104 @@
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,greek" rel="stylesheet" type="text/css"></link>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.6.0/math.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <span style="font-family: Fredoka One; font-size: medium;"><span style="color: red;"><info class="desc"></info>Info</span>
+</span><hr style="background-color: red; border-width: 0px; color: grey; height: 2px;" />
+<br /><h5 style="text-align: left;"><span style="font-family: Fredoka One; font-weight: normal;">This is a scientific calculator which can do general basic operations and some trigonometric, algebraic operations.</span></h5>
+<br />
+  
+  
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <div class="calc">
+      <div class="top">
+        <div class="result"></div>
+        <div class="screen"><span class="screentext animated" id="screentext"></span><span class="hints"></span></div>
+      </div>
+      <div class="keyboard">
+
+        <div class="crow">
+          <div class="cb cbac">AC</div>
+          <div class="cb cbpar" key="(">(</div>
+          <div class="cb cbpar" key=")">)</div>
+          <div class="cb cbce">CE</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbnum" key="pi">π</div>
+          <div class="cb cbnum" key="e">e</div>
+          <div class="cb cbnum" key="phi">φ</div>
+          <div class="cb cbnum" key="tau">τ</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbinv">Inv</div>
+          <div class="cb cbfun" key1="sin(" key2="asin(">sin<sup class="inv">-1</sup></div>
+          <div class="cb cbfun" key1="cos(" key2="acos(">cos<sup class="inv">-1</sup></div>
+          <div class="cb cbfun" key1="tan(" key2="atan(">tan<sup class="inv">-1</sup></div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbfun" key1="log10(">log</div>
+          <div class="cb cbfun" key1="log(">ln</div>
+          <div char="!" class="cb cbop" key="!">!</div>
+          <div char="deg" class="cb cbop" key="deg">deg</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbfun" key1="sqrt(">√</div>
+          <div char="²" class="cb cbop" key="^2">x²</div>
+          <div char="³" class="cb cbop" key="^3">x³</div>
+          <div char="^" class="cb cbop" key="^">^</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbnum lighter" key="7">7</div>
+          <div class="cb cbnum lighter" key="8">8</div>
+          <div class="cb cbnum lighter" key="9">9</div>
+          <div char="÷" class="cb cbop operands" key="/">÷</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbnum lighter" key="4">4</div>
+          <div class="cb cbnum lighter" key="5">5</div>
+          <div class="cb cbnum lighter" key="6">6</div>
+          <div char="×" class="cb cbop operands" key="*">×</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbnum lighter" key="1">1</div>
+          <div class="cb cbnum lighter" key="2">2</div>
+          <div class="cb cbnum lighter" key="3">3</div>
+          <div char="-" class="cb cbop operands" key="-">-</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbnum lighter" key="0">0</div>
+          <div class="cb cbnum lighter" key=".">.</div>
+          <div char="E" class="cb cbop lighter" key="E">exp</div>
+          <div char="+" class="cb cbop operands" key="+">+</div>
+        </div>
+
+        <div class="crow">
+          <div class="cb cbrnd" style="width: 25%;">Rnd</div>
+          <div class="cb cbans" style="width: 25%;">Ans</div>
+          <div class="cb enter" style="width: 50%;">=</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+         
+</body>
+
+</html>
